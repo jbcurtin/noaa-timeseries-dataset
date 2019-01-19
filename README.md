@@ -1,4 +1,4 @@
-# NOAA Integrated Surface Hourly Timeseries Dataset
+# NOAA Integrated Surface Hourly [ time series dataset ]
 
 The CSV[1922-csv] is built with the assumption you'll load the data into Pandas or something similar. 1922-csv is a sample-set. The full NOAA FTP data is available here(ftp://ftp.ncdc.noaa.gov/pub/data/noaa/readme.txt).
 
