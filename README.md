@@ -8,3 +8,13 @@ Also available is a fully, pre-processed dataset from 1901 -> 1978. To understan
 
   * Request 1901 -to- 1977 here: https://goo.gl/forms/hpnI9Sjx0pCuUrxz2
 
+### Loading Data
+
+```
+$ git clone git@github.com:jbcurtin/noaa-timeseries-dataset.git $HOME/noaa-timeseries-dataset
+$ cd $HOME/noaa-timeseries-dataset
+$ virtualenv -p $(which python3) env
+$ source env/bin/activate
+$ pip install pandas requests
+$ python load-data.py
+```
